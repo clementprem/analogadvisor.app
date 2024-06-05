@@ -37,15 +37,15 @@ mastodon_link                             :
 features                                  :
 
   - title                                 : Organize your analog projects
-    description                           : Track your projects from start to finish, upload your scanned images for each used film role, and write down your creative thoughts and notes. It's your personal space to organize your photography adventures.
+    description                           : Track your projects from start to finish. Upload scanned images for each film roll used, and jot down your creative thoughts and notes. It's your personal space to organize your photography adventures.
     fontawesome_icon_name                 : folder
-    
+
   - title                                 : Upload scanned images
-    description                           : Upload and securly store your scanned images in cloud storage. Edit your images using the in-app editor tools and share it with friends.
+    description                           : Upload and securely store your scanned images in cloud storage. Edit your images using the in-app editor tools and share them with friends.
     fontawesome_icon_name                 : cloud
 
   - title                                 : Discover analog films 
-    description                           : Discover the most common analog films, read up on their characteristics, and view inspiring sample images for each film. Browse the full list and easily find what you are looking for thanks to our search and filter options.
+    description                           : Discover the most popular analog films, read up on their characteristics, and view inspiring sample images for each film. Browse the full list and easily find what you're looking for with our search and filter options.
     fontawesome_icon_name                 : magic
 
   - title                                 : # New Feature Title
