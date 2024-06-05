@@ -30,7 +30,58 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
+// Gradient Colors
+$header-gradient: linear-gradient(45deg, #E96443, #904E95); // Gradient from #E96443 to #904E95
+$body-gradient: linear-gradient(135deg, #E96443, #904E95); // Gradient from #E96443 to #904E95
+$overlay-gradient: linear-gradient(180deg, rgba(233, 100, 67, 0.8), rgba(144, 78, 149, 0.8)); // Gradient overlay with transparency
+
 @import 
     "base",
     "layout",
-    "github-markdown"
+    "github-markdown";
+
+// Apply gradient to top bar
+.top-bar {
+  background: $header-gradient;
+  opacity: $header_transparency;
+}
+
+// Apply gradient overlay to cover image
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $overlay-gradient;
+  z-index: 1;
+}
+
+.cover {
+  position: relative;
+  text-align: center; /* Center text within the cover */
+}
+
+.cover img {
+  position: relative;
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+// Example positioning (choose one)
+// Center the image
+.cover img.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+// Apply gradient to body background
+body {
+  background: $body-gradient;
+}

@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : "Your #shootfilm companion"
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,7 +22,7 @@ enable_smart_app_banner                   : true                                
 # Information About Yourself
 your_name                                 : Clement Prem
 your_link                                 : 
-your_city                                 : Stockholm                                
+your_city                                 : Stockholm 🇸🇪                               
 email_address                             : analogadvisor@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
@@ -36,41 +36,17 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Organize your analog projects
+    description                           : Track your projects from start to finish, upload your scanned images for each used film role, and write down your creative thoughts and notes. It's your personal space to organize your photography adventures.
+    fontawesome_icon_name                 : folder
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Upload scanned images
+    description                           : Upload and securly store your scanned images in cloud storage. Edit your images using the in-app editor tools and share it with friends.
+    fontawesome_icon_name                 : cloud
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Discover analog films 
+    description                           : Discover the most common analog films, read up on their characteristics, and view inspiring sample images for each film. Browse the full list and easily find what you are looking for thanks to our search and filter options.
+    fontawesome_icon_name                 : magic
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -83,7 +59,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/background5.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
@@ -97,8 +73,8 @@ app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#ffffff"
+feature_text_color                        : "#ffffff"
 
 feature_icons_foreground_color            : "#1d63ea"
 feature_icons_background_color            : "#e6e6e6"
@@ -106,7 +82,7 @@ feature_icons_background_color            : "#e6e6e6"
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#ffffff"
 
 
 
