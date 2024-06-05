@@ -133,6 +133,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - vendor
 
 collections:
   pages:
@@ -142,4 +143,3 @@ collections:
 # Markdown rendering
 markdown: kramdown
 
-exclude: [vendor]
