@@ -141,3 +141,5 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+exclude: [vendor]
