@@ -50,7 +50,7 @@ features                                  :
 
   - title                                 : Discover analog films 
     description                           : Discover the most popular analog films, read about their characteristics, view inspiring sample images, and access film datasheets. Browse the full list and easily find what you need with our search and filter options.
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : search
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -67,7 +67,7 @@ cover_image                               : assets/gradient_background.jpg      
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.0
 
-device_color                              : clear                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black_titanium                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
