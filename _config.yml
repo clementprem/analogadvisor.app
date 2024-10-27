@@ -25,7 +25,7 @@ your_link                                 :
 your_city                                 :                               
 email_address                             : analogadvisor@gmail.com
 facebook_username                         :                                           
-instagram_username                        : analog.advisor
+instagram_username                        : filmfolio.app
 twitter_username                          : 
 github_username                           : 
 youtube_username                          :
@@ -40,18 +40,17 @@ features                                  :
     description                           : Track your projects from start to finish. Upload scanned images for each film roll used and record your creative thoughts and notes. Organize your photography adventures in your personal space.
     fontawesome_icon_name                 : folder
 
-  - title                                 : Upload scanned images
+  - title                                 : Built-in light meter
+    description                           : Use the built-in spot light meter in the active film to find the optimal exposure for your shots.
+    fontawesome_icon_name                 : magic
+
+  - title                                 : Securely store scanned images
     description                           : Upload and securely store your scanned images in cloud storage. Edit your images with the in-app editor tools and share them with friends.
     fontawesome_icon_name                 : cloud
 
   - title                                 : Discover analog films 
     description                           : Discover the most popular analog films, read about their characteristics, view inspiring sample images, and access film datasheets. Browse the full list and easily find what you need with our search and filter options.
     fontawesome_icon_name                 : magic
-
-  - title                                 : Built-in light meter
-    description                           : Use the built-in spot light meter in the active film to find the optimal exposure for your shots.
-    fontawesome_icon_name                 : magic
-
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -64,11 +63,11 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.3
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/background5.jpg                    # Replace with alternative image path or image URL.
+cover_image                               : assets/gradient_background.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.0
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : clear                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
